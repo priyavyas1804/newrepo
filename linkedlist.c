@@ -44,7 +44,7 @@ int main(int argc, char *argv[]) {
 	}
 }
 
-
+// WE ARE TRYING TO INSERT A NEW VALUE IN LINKED LIST
 void insert(int value) {
 	if(head == NULL) {
 		head = (Node *)malloc(sizeof(Node));
@@ -58,7 +58,7 @@ void insert(int value) {
 		tail = tail->next;
 	}
 }
-
+//WE ARE TRYING TO GET THE VALUE FROM LINKED LIST
 int fetch(int index) {
 	if(head == NULL) {
 		return -1;
